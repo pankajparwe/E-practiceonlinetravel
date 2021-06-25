@@ -19,7 +19,8 @@ public class e2e {
 			//(//a[@value='MAA'])[2]
 	//calender
 	     //   driver.findElement(By.xpath("//a[@class='ui-state-default ui-state-highlight']")).click();
-	driver.findElement(By.cssSelector("#ui-datepicker-div > div.ui-datepicker-group.ui-datepicker-group-first > table > tbody > tr:nth-child(4) > td.ui-datepicker-days-cell-over.ui-datepicker-today > a")).click();
+	driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/div[1]/table/tbody/tr[4]/td[6]/a")).click();
+
 			// passenger value
 	        
 	        driver.findElement(By.id("divpaxinfo")).click();
